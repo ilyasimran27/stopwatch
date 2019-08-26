@@ -1,0 +1,52 @@
+body{
+   
+  
+}
+section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  
+ height:100vh;
+    
+}
+#output{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+h1{
+    text-align: center;
+    color:white;
+}
+.master{
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.btn{
+    display:flex;
+    margin-top:10px;
+}
+.btn button{
+    margin: 0 20px;
+    padding:20px;
+    font-size: 20px;
+    background-color: blue;
+    color:red;
+    border:2px solid black;
+    cursor: pointer;
+}
+@media all and (max-width:400px){
+    .btn button{
+        margin: 0 10px;
+        padding:20px;
+        font-size: 20px;
+        background-color: blue;
+        color:red;
+        border:2px solid black;
+        cursor: pointer;
+    }
+}
